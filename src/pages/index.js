@@ -144,12 +144,12 @@ export default (() => {
 		<Section padding="100px 0" sm-padding="40px 0" background="rgba(0, 0, 0, 0.12)">
 			<Override slot="SectionContent" align-items="center" />
 			<Text as="p" font="--lead" margin="20px 0 0 0">
-				<Link href="#">
+				<Link href="/terms">
 					Terms And Conditions
 				</Link>
 				{" "}-{" "}
 				<Link
-					href="#"
+					href="/privacy"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
@@ -161,7 +161,7 @@ export default (() => {
 				</Link>
 				{" "}-{" "}
 				<Link
-					href="#"
+					href="/cookies"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
